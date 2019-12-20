@@ -1,7 +1,7 @@
 {
   "name": "@carhoo/widget-store",
   "description": "Store car list widget",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src/main.js",
   "unpkg": "./dist/widget.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "build-release": "webpack --config webpack.config.js --env.prod",
     "start": "webpack-dev-server --open"
   },
+  "private": false,
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
