@@ -24,24 +24,36 @@ export function render(params) {
             const templates = data
             let render = templates.map(item => {
                 return `<div class="carhoo-store-list_item">
-                    <figure class="item-image">
-                        <a href="https://carhoo.com.br/comprar/${item.id}" title="${item.vehicle.trim_name}" target="_blank">
-                            <img src="${item.vehicle.image_url}" alt="${item.vehicle.trim_name}" />
-                        </a>
-                    </figure>
+                <a href="https://carhoo.com.br/comprar/${item.id}" title="${
+                  item.vehicle.trim_name
+                }" target="_blank">
+                    <figure class="item-image" style="background-image: url('${
+                      item.vehicle.image_url
+                    }')"></figure>
+                    </a>
                     <div class="item-info">
                     <h3 class="title">
-                        <a href="https://carhoo.com.br/comprar/${item.id}" title="${item.vehicle.trim_name}" target="_blank">
+                        <a href="https://carhoo.com.br/comprar/${
+                          item.id
+                        }" title="${item.vehicle.trim_name}" target="_blank">
                             ${item.vehicle.trim_name}
                         </a>
                     </h3>
                     <div class="item-info_top">
-                        <span>${item.vehicle.manufacture_year}/${item.vehicle.model_year}</span>
-                        <span>${item.vehicle.city_name}/${item.vehicle.state_acronym}</span>
+                        <span>${item.vehicle.manufacture_year}/${
+                  item.vehicle.model_year
+                }</span>
+                        <span>${item.vehicle.city_name}/${
+                  item.vehicle.state_acronym
+                }</span>
                     </div>
                         <div class="item-info_bottom">
-                            <h4 class="price">R$ ${item.price.toLocaleString('pt-BR')}</h4>
-                            <span>${item.vehicle.mileage.toLocaleString('pt-BR')} km</span>
+                            <h4 class="price">R$ ${item.price.toLocaleString(
+                              "pt-BR"
+                            )}</h4>
+                            <span>${item.vehicle.mileage.toLocaleString(
+                              "pt-BR"
+                            )} km</span>
                         </div>
                     </div>
                 </div>`;            

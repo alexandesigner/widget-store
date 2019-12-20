@@ -6,6 +6,14 @@
 */
 @media (--medium-viewport) {
   .carhoo-store {
+      &-loading {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 20px 0;  
+          margin: 0;
+      }
       &-list {
           flex-direction: column;
           width: var(--full-percent);
@@ -15,7 +23,6 @@
               height: 100%;
               max-width: 44%;
               & .item-image {
-                  min-height: 100%;
                   max-height: 100%;
                   & img {
                       height: auto;
@@ -42,13 +49,22 @@
 */
 @media (--small-viewport) {
   .carhoo-store {
+      &-loading {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 20px 0;  
+          margin: 0;
+      }
       &-list {
           flex-wrap: nowrap;
           &_item {
             max-width: var(--full-percent);
+            width: 100%;
             & .item-image {
                 max-height: 100%;
-                min-height: 100%;
+                min-height: 235px;
             }
           }
           &_tracker {

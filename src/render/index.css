@@ -75,13 +75,14 @@
                 }
             }
             & .item-image {
+                width: 100%;
+                min-height: 130px;
+                background-color: #f2f2f2;
+                border-radius: 2px 2px 0 0;
+                position: relative;
+                background-size: cover;
+                background-position: center center;
                 margin: 0;
-                overflow: hidden;
-                display: flex;
-                border-radius: 5px 5px 0 0;
-                background: #f2f2f2;
-                min-height: 120px;
-                max-height: 120px;
                 position: relative;
                 cursor: pointer;
                 & a {
@@ -165,6 +166,8 @@
             text-transform: uppercase;
             color: var(--white-color);
             text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
             &:hover {
                 opacity: 0.65;
             }
