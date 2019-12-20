@@ -1,7 +1,7 @@
 {
   "name": "@carhoo/widget-store",
   "description": "Store car list widget",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./src/main.js",
   "unpkg": "./dist/widget.js",
   "scripts": {

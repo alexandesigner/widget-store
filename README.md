@@ -17,7 +17,7 @@ Após o primeiro passo, copie e cole este script no seu site
       w['Carhoo-Store']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
       js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
       js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-  }(window, document, 'script', 'cw', 'https://unpkg.com/@carhoo/widget-store@0.0.4/dist/widget.js'));
+  }(window, document, 'script', 'cw', 'https://unpkg.com/@carhoo/widget-store@0.0.5/dist/widget.js'));
   cw('render', {responsive: true});
 </script>
 ```
