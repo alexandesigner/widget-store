@@ -1,5 +1,7 @@
 ## Carhoo Store Widget
 
+![Print](https://github.com/alexandesigner/widget-store/blob/master/print.png)
+
 ### Como usar?
 
 Primeiro copie e cole este trecho de html no local onde deseja renderizar a lista
