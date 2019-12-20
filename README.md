@@ -3,12 +3,12 @@
 ### Como usar?
 
 Primeiro copie e cole este trecho de html no local onde deseja renderizar a lista
-```
+```html
 <div class="carhoo-widget"></div>
 ```
 
 Após o primeiro passo, copie e cole este script no seu site
-```
+```js
 <script async>
   (function (w,d,s,o,f,js,fjs) {
       w['Carhoo-Store']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
