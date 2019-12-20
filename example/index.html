@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Carhoo store - Widget</title>
+</head>
+<body>
+    <div class="carhoo-widget"></div>
+    <script async>
+        (function (w,d,s,o,f,js,fjs) {
+            w['Carhoo-Store']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+            js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+            js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+        }(window, document, 'script', 'cw', './widget.js'));
+        cw('render', {responsive: true});
+    </script>
+</body>
+</html>
