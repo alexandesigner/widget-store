@@ -1,4 +1,5 @@
 ## Carhoo Store Widget
+[![npm version](https://badge.fury.io/js/%40carhoo%2Fwidget-store.svg)](https://badge.fury.io/js/%40carhoo%2Fwidget-store)
 
 ![Print](https://github.com/alexandesigner/widget-store/blob/master/print.png)
 
