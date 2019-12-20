@@ -35,7 +35,7 @@
                         }
                     }
                 }
-                h3 {
+                .title {
                     a {
                         opacity: 0.5;
                     }
@@ -44,8 +44,9 @@
             & a {
                 text-decoration: none;
             }
-            & h3 {
+            & .title {
                 padding: var(--side-margin);
+                margin: 15px 0;
                 & a {
                     font-size: 18px;
                     color: var(--text-dark-color);
@@ -55,12 +56,13 @@
                     overflow: hidden;
                     text-overflow: ellipsis;
                     transition: var(--base-transition-linear);
+                    font-weight: 600;
                 }
             }
-            & h4 {
+            & .price {
                 color: var(--primary-color);
                 font-size: 20px;
-                font-weight: 600;
+                font-weight: 700;
                 margin: 0;
                 display: -webkit-box;
                 -webkit-line-clamp: 1;
@@ -117,7 +119,7 @@
                     color: var(--text-light-color);
                 }
                 &_top {
-                    margin-bottom: 20px;
+                    margin-bottom: 30px;
                 }
             }
         }

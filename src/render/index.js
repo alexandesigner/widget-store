@@ -30,7 +30,7 @@ export function render(params) {
                         </a>
                     </figure>
                     <div class="item-info">
-                    <h3>
+                    <h3 class="title">
                         <a href="https://carhoo.com.br/comprar/${item.id}" title="${item.vehicle.trim_name}" target="_blank">
                             ${item.vehicle.trim_name}
                         </a>
@@ -40,7 +40,7 @@ export function render(params) {
                         <span>${item.vehicle.city_name}/${item.vehicle.state_acronym}</span>
                     </div>
                         <div class="item-info_bottom">
-                            <h4>R$ ${item.price.toLocaleString('pt-BR')}</h4>
+                            <h4 class="price">R$ ${item.price.toLocaleString('pt-BR')}</h4>
                             <span>${item.vehicle.mileage.toLocaleString('pt-BR')} km</span>
                         </div>
                     </div>
