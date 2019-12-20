@@ -16,6 +16,7 @@
               max-width: 44%;
               & .item-image {
                   min-height: 100%;
+                  max-height: 100%;
                   & img {
                       height: auto;
                   }
@@ -47,6 +48,7 @@
             max-width: var(--full-percent);
             & .item-image {
                 max-height: 100%;
+                min-height: 100%;
             }
           }
           &_tracker {
